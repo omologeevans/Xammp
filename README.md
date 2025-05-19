@@ -39,7 +39,7 @@ CREATE TABLE employees (
     email VARCHAR(100),
     department VARCHAR(50),
     salary DECIMAL(10,2),
-    hire_date DATE NOT NULL
+    hire_date DATE 
 );
 ```
 
