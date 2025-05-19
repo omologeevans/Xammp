@@ -34,11 +34,11 @@ USE hamplus_database;
 ```sql
 CREATE TABLE employees (
     emp_id VARCHAR(10) PRIMARY KEY,
-    first_name VARCHAR(50) NOT NULL,
-    last_name VARCHAR(50) NOT NULL,
-    email VARCHAR(100) UNIQUE NOT NULL,
-    department VARCHAR(50) NOT NULL,
-    salary DECIMAL(10,2) NOT NULL,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    email VARCHAR(100),
+    department VARCHAR(50),
+    salary DECIMAL(10,2),
     hire_date DATE NOT NULL
 );
 ```
